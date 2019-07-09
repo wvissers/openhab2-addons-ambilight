@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.7">
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\.classpath">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\about.html">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\build.properties">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\ESH-INF\binding\binding.xml">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\ESH-INF\i18n\ambilight_xx_XX.properties">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\ESH-INF\thing\thing-types.xml">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\META-INF\MANIFEST.MF">
+<error line="10" severity="warning" message="The version of the package com.google.gson should not be specified" source="org.openhab.tools.analysis.checkstyle.ManifestPackageVersionCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\OSGI-INF\AmbilightHandlerFactory.xml">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\pom.xml">
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\AmbilightBindingConstants.java">
+<error line="4" severity="info" message="Line does not match expected header line of &apos; * All rights reserved. This program and the accompanying materials&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="23" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="26" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="27" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="28" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="29" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="30" column="18" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\handler\AmbilightHandler.java">
+<error line="4" severity="info" message="Line does not match expected header line of &apos; * All rights reserved. This program and the accompanying materials&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="133" severity="info" message="Comment matches to-do format &apos;(TODO)|(FIXME)&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\AmbilightHandlerFactory.java">
+<error line="4" severity="info" message="Line does not match expected header line of &apos; * All rights reserved. This program and the accompanying materials&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="29" column="19" severity="info" message="&apos;static&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\ColorSetChannel.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\LayerBean.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\ModeBean.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\ModeChannel.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\RestClient.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="c:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\TopologyBean.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" severity="info" message="Line does not match expected header line of &apos; * All rights reserved. This program and the accompanying materials&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+</file>
+</checkstyle>

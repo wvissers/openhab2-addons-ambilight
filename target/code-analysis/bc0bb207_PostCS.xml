@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sca>
+
+   <file name=".binding.ambilight\build.properties">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="0"
+               message="about.html file must be added to the bin.includes property"
+               priority="1"
+               rule="AboutHtmlCheck"
+               category="style"/>
+   </file>
+
+   <file name=".binding.ambilight\ESH-INF\i18n\ambilight_xx_XX.properties">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+   </file>
+
+   <file name=".binding.ambilight\META-INF\MANIFEST.MF">
+      <message tool="checkstyle" line="10"
+               message="The version of the package com.google.gson should not be specified"
+               priority="2"
+               rule="ManifestPackageVersionCheck"
+               category="style"/>
+   </file>
+
+
+   <file name="org.openhab.binding.ambilight.AmbilightBindingConstants.java">
+      <message tool="checkstyle" line="4"
+               message="Line does not match expected header line of ' * All rights reserved. This program and the accompanying materials'."
+               priority="3"
+               rule="HeaderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="23"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="26"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="27"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="28"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="29"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="30"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.handler.AmbilightHandler.java">
+      <message tool="checkstyle" line="4"
+               message="Line does not match expected header line of ' * All rights reserved. This program and the accompanying materials'."
+               priority="3"
+               rule="HeaderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="133"
+               message="Comment matches to-do format '(TODO)|(FIXME)'."
+               priority="3"
+               rule="TodoCommentCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.AmbilightHandlerFactory.java">
+      <message tool="checkstyle" line="4"
+               message="Line does not match expected header line of ' * All rights reserved. This program and the accompanying materials'."
+               priority="3"
+               rule="HeaderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="29"
+               message="'static' modifier out of order with the JLS suggestions."
+               priority="3"
+               rule="ModifierOrderCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.ColorSetChannel.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="4"
+               message="Line does not match expected header line of ' * All rights reserved. This program and the accompanying materials'."
+               priority="3"
+               rule="HeaderCheck"
+               category="style"/>
+      <message tool="checkstyle" line="8" message="An author tag is missing" priority="1"
+               rule="AuthorTagCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.LayerBean.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="16" message="An author tag is missing" priority="1"
+               rule="AuthorTagCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.ModeBean.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.ModeChannel.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="16" message="An author tag is missing" priority="1"
+               rule="AuthorTagCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.RestClient.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="24" message="An author tag is missing" priority="1"
+               rule="AuthorTagCheck"
+               category="style"/>
+   </file>
+   <file name="org.openhab.binding.ambilight.internal.TopologyBean.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline."
+               priority="3"
+               rule="NewlineAtEndOfFileCheck"
+               category="style"/>
+      <message tool="checkstyle" line="4"
+               message="Line does not match expected header line of ' * All rights reserved. This program and the accompanying materials'."
+               priority="3"
+               rule="HeaderCheck"
+               category="style"/>
+   </file>
+   <file name=".binding.ambilight\about.html">
+      <message tool="checkstyle" line="0" message="Missing about.html file." priority="1"
+               rule="RequiredFilesCheck"
+               category="style"/>
+   </file>
+   <file name=".binding.ambilight\pom.xml">
+      <message tool="checkstyle" line="9"
+               message="Wrong /project/parent/version in the pom.xml file. The version should match the one in the MANIFEST.MF file."
+               priority="1"
+               rule="PomXmlCheck"
+               category="style"/>
+   </file>
+</sca>

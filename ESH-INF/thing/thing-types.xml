@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="ambilight"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+        xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <!-- Sample Thing Type -->
+    <thing-type id="television">
+        <label>Ambilight Binding Thing</label>
+        <description>Smart TV with ambilight</description>
+        <channels>
+            <channel id="mode" typeId="mode-channel"/>
+            <channel id="left" typeId="colorset-channel"/>
+            <channel id="right" typeId="colorset-channel"/>
+            <channel id="top" typeId="colorset-channel"/>
+            <channel id="bottom" typeId="colorset-channel"/>
+        </channels>
+        <config-description>
+            <parameter name="ip" type="text" required="true">
+                <label>IP address</label>
+                <description>IP address of Ambilight TV</description>
+            </parameter>
+            <parameter name="port" type="integer">
+                <label>IP port</label>
+                <description>IP Port of Ambilight TV</description>
+                <default>1925</default>
+            </parameter>
+            <parameter name="version" type="integer">
+                <label>Ambilight API version</label>
+                <description>Ambilight API version (typically 5)</description>
+                <default>5</default>
+            </parameter>
+         </config-description>
+    </thing-type>
+
+    <!-- Mode Channel Type -->
+    <channel-type id="mode-channel">
+        <item-type>Number</item-type>
+        <label>Ambilight mode as number</label>
+        <description>Ambilight mode as a number 0=internal, 1=manual, 2=expert. The
+         number mapping allows for easy integration with a switch in openHAB.
+        </description>
+    </channel-type>
+    <channel-type id="colorset-channel">
+        <item-type>Color</item-type>
+        <label>Color of the light(s)</label>
+        <description>This channel controls the color of a set of pixels. Typically 
+         all pixels on the left, right, top or bottom. Separate things may exist
+         for individual pixels.
+        </description>
+    </channel-type>
+
+</thing:thing-descriptions>

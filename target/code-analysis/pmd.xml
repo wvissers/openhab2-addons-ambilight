@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2017-08-08T20:25:49.702">
+<file name="C:\OH2dev\master\git\openhab2-addons\addons\binding\org.openhab.binding.ambilight\src\main\java\org\openhab\binding\ambilight\internal\RestClient.java">
+<violation beginline="48" endline="48" begincolumn="27" endcolumn="42" rule="AvoidThrowingRawExceptionTypes" ruleset="Strict Exceptions" package="org.openhab.binding.ambilight.internal" class="RestClient" method="getResponse" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/strictexception.html#AvoidThrowingRawExceptionTypes" priority="2">
+Avoid throwing raw exception types.
+</violation>
+<violation beginline="53" endline="53" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="getResponse" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.println is used
+</violation>
+<violation beginline="59" endline="59" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="getResponse" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="61" endline="61" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="getResponse" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="79" endline="79" begincolumn="27" endcolumn="42" rule="AvoidThrowingRawExceptionTypes" ruleset="Strict Exceptions" package="org.openhab.binding.ambilight.internal" class="RestClient" method="postData" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/strictexception.html#AvoidThrowingRawExceptionTypes" priority="2">
+Avoid throwing raw exception types.
+</violation>
+<violation beginline="83" endline="83" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="postData" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="3">
+System.out.println is used
+</violation>
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="postData" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="91" endline="91" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.ambilight.internal" class="RestClient" method="postData" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>
