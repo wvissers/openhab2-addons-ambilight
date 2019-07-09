@@ -3,16 +3,17 @@ Bundle-SymbolicName: org.openhab.binding.ambilight;singleton:=true
 Export-Package: org.openhab.binding.ambilight,org.openhab.binding.ambi
  light.handler
 Bundle-Name: Ambilight Binding
-Bundle-Version: 2.2.0.201708081825
+Bundle-Version: 2.4.0.201907091526
 Bundle-ClassPath: .
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: openHAB
 Import-Package: com.google.gson;version="2.5.0",org.eclipse.smarthome.
- config.core,org.eclipse.smarthome.core.library.types,org.eclipse.smar
- thome.core.thing,org.eclipse.smarthome.core.thing.binding,org.eclipse
- .smarthome.core.thing.binding.builder,org.eclipse.smarthome.core.thin
- g.type,org.eclipse.smarthome.core.types,org.openhab.binding.ambilight
- ,org.openhab.binding.ambilight.handler,org.slf4j
+ config.core,org.eclipse.jdt.annotation;resolution:=optional,org.eclip
+ se.smarthome.core.library.types,org.eclipse.smarthome.core.thing,org.
+ eclipse.smarthome.core.thing.binding,org.eclipse.smarthome.core.thing
+ .binding.builder,org.eclipse.smarthome.core.thing.type,org.eclipse.sm
+ arthome.core.types,org.openhab.binding.ambilight,org.openhab.binding.
+ ambilight.handler,org.slf4j
 Service-Component: OSGI-INF/*.xml
 

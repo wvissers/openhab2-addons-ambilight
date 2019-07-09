@@ -23,12 +23,12 @@ under the License.
     <link>${project.url}</link>
     <description>Ambilight Binding - Checkstyle report</description>
     <language>en-us</language>
-    <copyright>&#169;2017 openHAB.org</copyright>
+    <copyright>&#169;2019 openHAB.org</copyright>
     <item>
-      <title>File: 18,
+      <title>File: 19,
              Errors: 0,
-             Warnings: 1,
-             Infos: 20
+             Warnings: 6,
+             Infos: 38
       </title>
             <link>${project.url}/checkstyle.html</link>
       <description>
@@ -105,7 +105,7 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.internal.ColorSetChannel.java">src/main/java/org/openhab/binding/ambilight/internal/ColorSetChannel.java</a>
                 </td>
                 <td>
-                  1
+                  5
                 </td>
                 <td>
                   0
@@ -119,7 +119,7 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.internal.RestClient.java">src/main/java/org/openhab/binding/ambilight/internal/RestClient.java</a>
                 </td>
                 <td>
-                  1
+                  3
                 </td>
                 <td>
                   0
@@ -136,7 +136,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -161,7 +161,21 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.AmbilightBindingConstants.java">src/main/java/org/openhab/binding/ambilight/AmbilightBindingConstants.java</a>
                 </td>
                 <td>
-                  7
+                  6
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#README.md">README.md</a>
+                </td>
+                <td>
+                  0
                 </td>
                 <td>
                   0
@@ -175,10 +189,10 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.internal.TopologyBean.java">src/main/java/org/openhab/binding/ambilight/internal/TopologyBean.java</a>
                 </td>
                 <td>
-                  2
+                  1
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -189,7 +203,7 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.handler.AmbilightHandler.java">src/main/java/org/openhab/binding/ambilight/handler/AmbilightHandler.java</a>
                 </td>
                 <td>
-                  2
+                  13
                 </td>
                 <td>
                   0
@@ -234,7 +248,7 @@ under the License.
                   1
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -245,7 +259,7 @@ under the License.
                   <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.ambilight.internal.ModeChannel.java">src/main/java/org/openhab/binding/ambilight/internal/ModeChannel.java</a>
                 </td>
                 <td>
-                  1
+                  4
                 </td>
                 <td>
                   0
@@ -262,7 +276,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -276,7 +290,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0

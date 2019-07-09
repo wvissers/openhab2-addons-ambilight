@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2010-2017 by the respective copyright holders.
+ * Copyright (c) 2010-2018 by the respective copyright holders.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
@@ -13,8 +13,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
+
+import org.openhab.binding.ambilight.handler.AmbilightHandler;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.google.gson.Gson;
 
@@ -26,6 +29,7 @@ public class RestClient {
     private static final int CONNECTION_TIMEOUT = 20000;
 
     private String _endPoint;
+    private Logger _logger = LoggerFactory.getLogger(AmbilightHandler.class);
 
     /**
      * Create a new client with the given server and port address.
@@ -55,10 +59,8 @@ public class RestClient {
                 output.append(line);
             }
             conn.disconnect();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            _logger.error("Communication error {}.", e.getMessage());
         }
         return output.toString();
     }
@@ -85,10 +87,8 @@ public class RestClient {
                 output.append(line);
             }
             conn.disconnect();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            _logger.error("Communication error {}.", e.getMessage());
         }
         return output.toString();
     }
